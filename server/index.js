@@ -23,6 +23,8 @@ app.use(cors({
 app.use(express.json());
 app.use(cookiesParser())
 
+
+//test commit 4
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
