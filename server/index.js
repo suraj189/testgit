@@ -33,6 +33,8 @@ db.once('open', () => {
     console.log('Connected to MongoDB');
 });
 
+//test commit 5
+
 app.get('/test', (req, res) => {
     console.log('test');
     res.json('test ok');
