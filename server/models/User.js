@@ -6,6 +6,8 @@ const userSchema= new Schema({
     email:{type:String,unique:true},
     password:String
 })
+
+//test commit 
 const UserModel = mongoose.model('Users',userSchema)
 
 module.exports=UserModel;
