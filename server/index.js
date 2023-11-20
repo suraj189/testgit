@@ -18,6 +18,8 @@ app.use(cors({
     origin: 'http://localhost:3000',
 }));
 
+
+//test commit 3
 app.use(express.json());
 app.use(cookiesParser())
 
