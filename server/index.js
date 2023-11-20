@@ -7,6 +7,8 @@ const User = require('./models/User');
 const cookiesParser = require('cookie-parser')
 require('dotenv').config();
 
+
+//test commit 2
 const app = express();
 
 const bcryptSalt = bcrypt.genSaltSync(10);
